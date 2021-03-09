@@ -18,7 +18,7 @@ using namespace std;
 
 #define PI 3.14
 //#define POINTERS_BASICS	//Основы указателей
-#define POINTERS_AND_ARRAYS	//Указатели и массивы
+//#define POINTERS_AND_ARRAYS	//Указатели и массивы
 
 /*
 define - определить
