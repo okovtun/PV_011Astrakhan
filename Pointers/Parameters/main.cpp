@@ -16,7 +16,7 @@ using namespace std;
 -----------------------------
 */
 
-void Exchange(int a, int b);//Прототип функции (Объявление функции - Function declaration)
+void Exchange(int& a, int& b);//Прототип функции (Объявление функции - Function declaration)
 //В прототипе и реализации функции мы показываем, какие параметры функция ПРИНИМАЕТ
 
 void main()
@@ -29,11 +29,11 @@ void main()
 	cout << a << tab << b << endl;
 }
 
-void Exchange(int a, int b)	//Реализация (Определение) функции - Function definition
+void Exchange(int& a, int& b)	//Реализация (Определение) функции - Function definition
 //В прототипе и реализации функции мы показываем, какие параметры функция ПРИНИМАЕТ
 {
 	int buffer = a;
 	a = b;
 	b = buffer;
-	cout << a << tab << b << endl;
+	//cout << a << tab << b << endl;
 }
