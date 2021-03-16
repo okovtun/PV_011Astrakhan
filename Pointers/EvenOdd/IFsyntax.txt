@@ -1,0 +1,10 @@
+if(Condition)
+{
+	code1;
+}
+else
+{
+	code2;
+}
+
+group-of-statements;
