@@ -1,12 +1,16 @@
 ﻿https://github.com/okovtun/PV_011Astrakhan
+https://github.com/okovtun/DynamicAstrakhan
 https://www.youtube.com/watch?v=ZzIIEXZ5yfU&list=PLeqyOOqxeiIMGEfDteoklYzplaPhrM2wp&index=2&t=1504s
 https://meet.google.com/cig-beeg-wjp?authuser=0
 https://meet.google.com/mho-khdw-fhj
 
+TODO:
+От ветки templated создать ветку templated_split, и в ней вынести шаблонные функции в отдельные файлы.
+
 TOREAD:
 http://cplusplus.com/doc/tutorial/functions2/ - templates
 
-TODO:
+DONE:
 В проект DynamicMemory добавить функции:
 
 ??? Allocate(???);	//Выделяет память для динамического массива. Сода нужно вынести код, выделяющий память под массив
