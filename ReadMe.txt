@@ -4,6 +4,13 @@ https://www.youtube.com/watch?v=ZzIIEXZ5yfU&list=PLeqyOOqxeiIMGEfDteoklYzplaPhrM
 https://meet.google.com/cig-beeg-wjp?authuser=0
 https://meet.google.com/mho-khdw-fhj
 
+/////////////////////////////////////////////////////////////////////////
+https://doc.qt.io/qt-5/gettingstarted.html
+https://doc.qt.io/qt-5/qtwidgets-tutorials-notepad-example.html
+https://doc.qt.io/qt-5/qtdoc-tutorials-alarms-example.html
+https://www.boost.org/doc/libs/1_76_0/?view=categorized
+/////////////////////////////////////////////////////////////////////////
+
 TODO:
 От ветки templated создать ветку templated_split, и в ней вынести шаблонные функции в отдельные файлы.
 
