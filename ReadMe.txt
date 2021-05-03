@@ -12,6 +12,18 @@ https://www.boost.org/doc/libs/1_76_0/?view=categorized
 /////////////////////////////////////////////////////////////////////////
 
 TODO:
+Упростить функции:
+void to_lower(char str[]);
+void to_upper(char str[]);
+bool is_int_number(char str[]);
+int to_int_number(char str[]);
+bool is_hex_number(char str[]);
+используя стандартные функции из библиотек: string.h, stdlib.h, ctype.h
+http://cplusplus.com/reference/cstring/
+http://cplusplus.com/reference/cstdlib/
+http://cplusplus.com/reference/cctype/
+
+DONE:
 void shrink(char str[]);		//Удаляет из строки лишние пробелы, например:				DONE
 								//Хорошо        живет     на   свете    Винни      Пух
 								//Хорошо живет на свете Винни Пух
@@ -22,11 +34,11 @@ bool is_int_number(char str[]);	//Определяет, является ли с
 int  to_int_number(char str[]);	//Если строка - целое число, функция вернет его числовое значение.	DONE
 
 bool is_bin_number(char str[]);	//Проверяет, является ли строка двоичным числом				DONE
-int  bin_to_dec(char str[]);	//Если строка - двоичное число, функция вернет его десятичное значение.
+int  bin_to_dec(char str[]);	//Если строка - двоичное число, функция вернет его десятичное значение.	
 ???  dec_to_bin(int decimal);	//Функция принимает десятичное число, и возвращает его двоичное значение. !!!!TODO
 
-bool is_hex_number(char str[]);	//Проверяет, является ли функция шестнадцатеричным числом
-int  hex_to_dec(char str[]);	//Если строка - Шестнадцатеричное число, функция вернет его десятичное значение
+bool is_hex_number(char str[]);	//Проверяет, является ли функция шестнадцатеричным числом	DONE
+int  hex_to_dec(char str[]);	//Если строка - Шестнадцатеричное число, функция вернет его десятичное значение		DONE
 ???  dec_to_hex(int decimal);	//Функция принимает десятичное число, и возвращает его Шестнадцатеричное значение.
 
 bool is_mac_address(char str[]);//Проверяет, является ли строка MAC-адресом
