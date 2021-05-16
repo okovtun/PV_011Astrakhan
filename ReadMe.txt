@@ -13,6 +13,8 @@ https://www.boost.org/doc/libs/1_76_0/?view=categorized
 
 TODO:
 Реализовать игру Пятнашки.
+P.S.: Вот под что хорошо пишутся пятнашки:
+https://www.youtube.com/watch?v=JVsyBKvqY5I&list=PLYwfYGziz-_25YJd7ohjTWMwfjH1Brht8 :-).
 
 DONE:
 0	1	1	2	3	5	8	13	21
