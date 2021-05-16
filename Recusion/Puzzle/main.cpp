@@ -47,10 +47,13 @@ void main()
 		field[i] = new int[n] {};
 	}
 
+	//Full Screen:
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleDisplayMode(hConsole, CONSOLE_FULLSCREEN_MODE, NULL);
-	HWND hwnd = GetConsoleWindow();
 	//SendMessage(hwnd, CONSOLE_FULLSCREEN_MODE, 0, 0);
+	
+	//Title:
+	HWND hwnd = GetConsoleWindow();
 	SendMessage(hwnd, WM_SETTEXT, 0, (LPARAM)L"Puzzle");
 	//SetConsoleTitle(L"Puzzle");
 
